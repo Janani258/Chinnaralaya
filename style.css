@@ -1,0 +1,138 @@
+
+img{
+    width:50;
+    height:50;
+}
+h1{
+    font-size: 100px;
+}
+
+.announcement{
+    background-color:yellowgreen;
+}
+
+.img1{
+    
+width:11.5%;
+ padding:0px;
+ margin:0px;
+ border:0px;
+  margin-left: -10;
+
+
+}
+ul{
+    text-align: center;
+}
+.m1{
+    width: 200px;
+}
+.topnav-centered a {
+    position: relative;
+   float: none;
+   list-style: none;
+    
+
+  }
+  .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+    list-style: none;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  #myCarousel
+  {
+      background-color: red;
+  }
+  
+  #myCarousel img
+  {
+     
+      margin-top: 35px;
+  }
+  
+  .carousel-inner p
+  {
+      margin-bottom: 15px;
+      margin-top: 15px;
+      color : white;
+      font-size: 20px;
+  }
+  .imgs{
+    width: 80%;
+    height: 60%;
+  }
+  .tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 300px;
+  }
+  
+  /* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+ 
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: red;}
+#News {background-color: green;}
+#Contact {background-color: blue;}
+
